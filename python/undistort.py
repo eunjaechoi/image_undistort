@@ -12,15 +12,6 @@ parser.add_argument("-c", "--calibration", action="store", help="input calibrati
 parser.add_argument("-s", "--save", action="store", help="save dir path")
 args = parser.parse_args()
 
-
-def createFolder(directory):
-    try:
-        if not os.path.exists(directory):
-            os.makedirs(directory)
-    except OSError:
-        print ('Error: Creating directory. ' +  directory)
-
-
 # input data
 image_dir_path = f'{args.image}/*'
 calibration_path = args.calibration
