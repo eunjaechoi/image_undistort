@@ -20,6 +20,6 @@ image undistort
         ```
         + ex)
         ```
-        python undistort.py -i data/pinhole/ -c data/calibration.json -s data/result/ -m pinhole
+        python undistort.py -i data/pinhole/ -c data/sample_pinhole_calibration.json -s data/result/ -m pinhole
         ```
 # Fisheye Camera Image undistort
