@@ -11,11 +11,11 @@ image undistort
         + save directory path
     + run
         + move
-        '''
+        ```
         cd image_undistort/python
-        '''
+        ```
         + run
-        '''
+        ```
         python undistort.py -i {image directory path} -c {calibration file path} -s {save directory path} -m {mode}
-        '''
+        ```
 # Fisheye Camera Image undistort
