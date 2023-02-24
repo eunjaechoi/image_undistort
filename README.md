@@ -4,11 +4,11 @@ image undistort
 # Pinhole Camera Image undistort
 + python
     + input
-        + image directory path
-        + mode: Pinhole
-        + calibration file path
+        + -i: image directory path
+        + -m: mode: Pinhole
+        + -c: calibration file path
             + Reference file) data/sample_calibration.json
-        + save directory path
+        + -s: save directory path
     + run
         + move
         ```
